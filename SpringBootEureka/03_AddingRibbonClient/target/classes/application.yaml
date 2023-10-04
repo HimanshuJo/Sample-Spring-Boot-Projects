@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: service01
+
+eureka:
+  client:
+    #registerWithEureka: false
+    #fetchRegistry: false
+    serviceURL:
+      defaultZone: http://localhost:1111/eureka/
+  instance:
+    preferIpAddress: true
+    metadataMap:
+      instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+    leaseRenewalIntervalInSeconds: 1000
+    leaseExpirationDurationInSeconds: 2000
+server:
+  port: 8082
+
+service-two:
+  ribbon:
+    DeploymentContextBasedVipAddresses: service02
+    NIWSServerListClassName: com.netflix.niws.loadbalancer.DiscoveryEnabledNIWSServerList
