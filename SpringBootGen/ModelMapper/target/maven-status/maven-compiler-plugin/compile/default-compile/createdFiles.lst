@@ -1,7 +1,0 @@
-com\capgemini\modelmapperEmployeeApp\response\EmployeeResponse.class
-com\capgemini\modelmapperEmployeeApp\repository\EmployeeRepo.class
-com\capgemini\modelmapperEmployeeApp\configuration\EmployeeConfig.class
-com\capgemini\modelmapperEmployeeApp\EmployeeServiceApplication.class
-com\capgemini\modelmapperEmployeeApp\entity\Employee.class
-com\capgemini\modelmapperEmployeeApp\controller\EmployeeController.class
-com\capgemini\modelmapperEmployeeApp\service\EmployeeService.class
