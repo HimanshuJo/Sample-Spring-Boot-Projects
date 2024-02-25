@@ -1,0 +1,5 @@
+com\capgemini\sbmongodb\docs\Book.class
+com\capgemini\sbmongodb\service\BookService.class
+com\capgemini\sbmongodb\controller\BookController.class
+com\capgemini\sbmongodb\SpringMongoDBApplication.class
+com\capgemini\sbmongodb\repository\BookRepository.class

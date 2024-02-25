@@ -1,0 +1,4 @@
+com\capgemini\h2test\controller\H2TestController.class
+com\capgemini\h2test\model\Message.class
+com\capgemini\h2test\repository\MessageRepository.class
+com\capgemini\h2test\H2Test.class
